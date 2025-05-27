@@ -1,0 +1,37 @@
+[
+  {
+    "kode_produk": "P001",
+    "nama_produk": "Produk 1",
+    "harga": 25000,
+    "stok": 5,
+    "image": "img/rendang.jpg"
+  },
+  {
+    "kode_produk": "P002",
+    "nama_produk": "Produk 2",
+    "harga": 30000,
+    "stok": 1,
+    "image": "img/soto.jpg"
+  },
+  {
+    "kode_produk": "P003",
+    "nama_produk": "Produk 3",
+    "harga": 15000,
+    "stok": 2,
+    "image": "https://via.placeholder.com/200x200"
+  },
+  {
+    "kode_produk": "P004",
+    "nama_produk": "Produk 4",
+    "harga": 35000,
+    "stok": 10,
+    "image": "https://via.placeholder.com/200x200"
+  },
+  {
+    "kode_produk": "P005",
+    "nama_produk": "Produk 5",
+    "harga": 20000,
+    "stok": 3,
+    "image": "https://via.placeholder.com/200x200"
+  }
+]
