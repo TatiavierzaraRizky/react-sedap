@@ -31,6 +31,8 @@ const Error403Lazy = React.lazy(() => import('./pages/Error403'));
 const UsersLazy = React.lazy(() => import('./pages/Users'));
 const AboutLazy = React.lazy(() => import('./pages/guest/AboutUs'));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
+const Notes = React.lazy(() => import("./pages/Notes"));
+
 // const MenuLazy = React.lazy(() => import('./pages/guest/Menu'));
 
 function App() {
@@ -50,6 +52,7 @@ function App() {
           <Route path="/error403" element={<Error403Lazy />} />
           <Route path="products" element={<Products />} />
           <Route path="/products/:id" element={<ProductDetail />} />
+          <Route path="/notes" element={<Notes />} />
           {/* <Route path="/menu" element={<MenuLazy />} /> */}
         </Route>
 

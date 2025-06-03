@@ -1,3 +1,4 @@
+import { BiNote } from "react-icons/bi"; 
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { AiOutlineUserAdd } from "react-icons/ai";
@@ -72,13 +73,16 @@ export default function ListMenu() {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink
-                            id="menu-4"
-                            to="/products"
-                            className={menuClass}
+                        <NavLink id="menu-4" to="/products" className={menuClass}
                         >
                             <MdFastfood className="mr-4 text-xl" />
                             Products
+                        </NavLink>
+                    </li>
+                     <li>
+                        <NavLink id="menu-8" to="/notes" className={menuClass}>
+                            <BiNote className="mr-4 text-xl" />
+                            Notes
                         </NavLink>
                     </li>
                 </ul>
